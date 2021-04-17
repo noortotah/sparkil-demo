@@ -1,0 +1,68 @@
+@import "../../index.scss";
+
+.fundraising-icon::before {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 15px;
+    background-size: cover;
+    background-color: theme-color('warning');
+    margin-right: 3px;
+}
+
+.excel-icon::before {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 14px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('../../assets/excel-icon.png');
+}
+
+.repayments-icon::before{
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 15px;
+    background-size: cover;
+    background-color: theme-color('success');
+    margin-right: 3px;
+}
+
+.finished-icon::before{
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 15px;
+    background-size: cover;
+    background-color: theme-color('primary');
+    margin-right: 3px;
+}
+
+.table thead th {
+    border: 0px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.table th, .table td {
+    vertical-align: middle;
+    border: 0px;
+}
+
+.balance-border {
+    border-right: 1px solid #ccc !important;
+}
+
+.separator{
+    height: 15px;
+}
+
+
+.font-weight-500 {
+    font-weight: 500;
+}

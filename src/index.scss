@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+
+$theme-colors: (
+    "primary": #262E3F,
+    "secondary": #616A82,
+    "success": #44D7B6,
+    "warning": #F7B500,
+    "info": #41ADFF,
+    "danger": #FF3863,
+    "purple": #6E75F5,
+    "badge": #32C5FF,
+    "semi-light": #E2E2E6
+);
+
+@import "~bootstrap/scss/_functions";
+
+$body-color: theme-color("primary");
+$border-radius: 0.15rem;
+$border-radius-sm: 0.15rem;
+$border-radius-lg: 0.15rem;
+$input-btn-focus-width:       .1rem !default;
+$input-btn-focus-color:       rgba(theme-color("primary"), .25) !default;
+$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}

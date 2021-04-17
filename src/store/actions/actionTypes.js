@@ -1,0 +1,2 @@
+export const SEARCH_LENDERS = 'SEARCH_LENDERS';
+export const FILTER_LENDERS = 'FILTER_LENDERS';
